@@ -1,0 +1,20 @@
+create lot 5 5 5
+make vehicle 123
+create permit 1 RESERVED
+issue permit 1 vehicle 123
+make vehicle 321
+create permit 2 GENERAL
+issue permit 2 vehicle 321
+park vehicle 123 spot 5
+park vehicle 321 spot 4
+display lot
+patrol lot
+get spot 4
+remove vehicle 123
+remove vehicle 321
+park vehicle 123 spot 2
+park vehicle 321 spot 9
+patrol lot
+display vehicles
+display lot
+quit

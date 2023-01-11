@@ -1,0 +1,49 @@
+help
+create lot 4 26 70
+make vehicle 0
+create permit 0 RESERVED
+issue permit 0 vehicle 0
+make vehicle 1
+create permit 1 HANDICAPPED
+issue permit 1 vehicle 1
+make vehicle 2
+make vehicle 3
+make vehicle 4
+create permit 4 HANDICAPPED
+issue permit 4 vehicle 4
+make vehicle 5
+create permit 5 HANDICAPPED
+issue permit 5 vehicle 5
+make vehicle 6
+create permit 6 RESERVED
+issue permit 6 vehicle 6
+park vehicle 0 spot 2
+park vehicle 1 spot 2
+park vehicle 1 spot 0
+park vehicle 2 spot 18
+park vehicle 3 spot 40
+park vehicle 4 spot 44
+park vehicle 5 spot 42
+park vehicle 6 spot 57
+display lot
+display vehicles
+patrol lot
+display tickets
+get spot 0
+get spot 1
+get spot 2
+get spot 18
+remove vehicle 0
+remove vehicle 1
+remove vehicle 2
+remove vehicle 3
+remove vehicle 3
+remove vehicle 4
+remove vehicle 5
+remove vehicle 6
+park vehicle 3 spot 1
+patrol lot
+display lot
+display vehicles
+garbage
+quit
